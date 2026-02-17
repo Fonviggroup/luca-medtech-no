@@ -1,0 +1,25 @@
+export default function Footer() {
+  return (
+    <footer className="bg-primary-dark py-10">
+      <div className="mx-auto flex max-w-6xl flex-col items-center gap-4 px-6 text-center md:flex-row md:justify-between md:text-left">
+        <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-white/60">
+          <a href="#" className="transition-colors hover:text-white">
+            Personvern
+          </a>
+          <a href="#" className="transition-colors hover:text-white">
+            Vilkår
+          </a>
+          <a
+            href="mailto:steffen@fonviggroup.com"
+            className="transition-colors hover:text-white"
+          >
+            steffen@fonviggroup.com
+          </a>
+        </div>
+        <p className="text-sm text-white/40">
+          &copy; 2025 Luca MedTech AS &middot; Hokksund, Norge
+        </p>
+      </div>
+    </footer>
+  );
+}
