@@ -19,9 +19,9 @@ export default function Problem() {
             CGM-data når aldri journalen automatisk
           </h2>
           <p className="mb-16 max-w-2xl text-lg text-text-secondary">
-            I dag kopierer klinikere tall manuelt fra én skjerm til en annen.
-            Hver konsultasjon. Hver pasient. Det tar tid, skaper feil, og er
-            helt unødvendig.
+            I dag logger klinikere inn i separate portaler, henter tall manuelt,
+            og skriver dem inn i journalsystemet. Hver konsultasjon. Hver
+            pasient. Det tar tid, skaper feil, og er helt unødvendig.
           </p>
         </ScrollReveal>
 
@@ -36,19 +36,19 @@ export default function Problem() {
                 </p>
                 <div className="flex flex-wrap items-center gap-2 text-sm text-text-secondary">
                   <span className="rounded-full bg-white px-3 py-1 shadow-[var(--shadow-sm)]">
-                    Dexcom / Libre
+                    Sensor
                   </span>
                   <span className="text-text-muted">&rarr;</span>
                   <span className="rounded-full bg-white px-3 py-1 shadow-[var(--shadow-sm)]">
-                    Glooko
+                    Separat portal
                   </span>
                   <span className="text-text-muted">&rarr;</span>
                   <span className="rounded-full bg-error/10 px-3 py-1 font-medium text-error">
-                    &#9995; Manuell kopiering
+                    &#9995; Manuelt
                   </span>
                   <span className="text-text-muted">&rarr;</span>
                   <span className="rounded-full bg-white px-3 py-1 shadow-[var(--shadow-sm)]">
-                    DIPS
+                    Journal
                   </span>
                 </div>
               </div>
@@ -60,7 +60,7 @@ export default function Problem() {
                 </p>
                 <div className="flex flex-wrap items-center gap-2 text-sm text-text-secondary">
                   <span className="rounded-full bg-white px-3 py-1 shadow-[var(--shadow-sm)]">
-                    Dexcom / Libre
+                    Sensor
                   </span>
                   <span className="text-text-muted">&rarr;</span>
                   <span className="rounded-full bg-secondary/10 px-3 py-1 font-medium text-secondary">
@@ -68,7 +68,7 @@ export default function Problem() {
                   </span>
                   <span className="text-text-muted">&rarr;</span>
                   <span className="rounded-full bg-white px-3 py-1 shadow-[var(--shadow-sm)]">
-                    DIPS / Noklus
+                    Journal (automatisk)
                   </span>
                 </div>
               </div>

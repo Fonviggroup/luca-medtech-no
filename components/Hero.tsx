@@ -43,7 +43,7 @@ export default function Hero() {
               href="#kontakt"
               className="rounded-[var(--radius-xl)] bg-accent px-8 py-3.5 font-semibold text-white transition-all hover:bg-accent-light hover:shadow-[var(--shadow-md)]"
             >
-              Bli med tidlig
+              Ta kontakt
             </a>
             <a
               href="#losningen"

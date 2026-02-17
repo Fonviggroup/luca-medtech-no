@@ -13,7 +13,6 @@ export default function Nav() {
   }, []);
 
   const links = [
-    { href: "#problemet", label: "Problemet" },
     { href: "#losningen", label: "Løsningen" },
     { href: "#om-oss", label: "Om oss" },
   ];

@@ -5,17 +5,21 @@ export default function Story() {
     <section id="om-oss" className="bg-sand py-24">
       <div className="mx-auto max-w-3xl px-6 text-center">
         <ScrollReveal>
-          {/* Decorative quote mark */}
-          <span className="mb-6 block font-serif text-8xl leading-none text-secondary/20">
-            &ldquo;
-          </span>
+          <p className="mb-3 text-sm font-semibold tracking-wide text-accent">
+            Om oss
+          </p>
+          <h2 className="mb-8 font-serif text-3xl text-primary md:text-4xl">
+            Hvorfor vi bygger dette
+          </h2>
 
-          <blockquote className="mb-8 font-serif text-2xl leading-relaxed text-primary md:text-3xl">
-            Da sønnen min fikk type 1-diabetes i november 2024, satt jeg på
-            sykehuset og så klinikere kopiere tall manuelt fra én skjerm til en
-            annen. Jeg tenkte: dette kan ikke stemme. Så jeg bestemte meg for å
-            fikse det.
-          </blockquote>
+          <p className="mb-10 text-lg leading-relaxed text-text-secondary">
+            I november 2025 fikk min tre år gamle sønn diagnosen type
+            1-diabetes. I ukene som fulgte oppdaget jeg at kritisk helsedata fra
+            blodsukkersensoren hans ikke flyter dit den skal. Klinikere kopierer
+            tall manuelt. Barnehagen fikk et papirskjema. Familien brukte tre
+            forskjellige apper uten sammenheng. Luca MedTech bygger det som
+            mangler — plattformen som kobler alt sammen.
+          </p>
 
           {/* Author */}
           <div className="flex items-center justify-center gap-4">
@@ -24,9 +28,7 @@ export default function Story() {
             </div>
             <div className="text-left">
               <p className="font-semibold text-primary">Steffen Fonvig</p>
-              <p className="text-sm text-text-muted">
-                Grunnlegger, Luca MedTech AS
-              </p>
+              <p className="text-sm text-text-muted">Grunnlegger</p>
             </div>
           </div>
         </ScrollReveal>

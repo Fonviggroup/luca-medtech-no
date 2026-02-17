@@ -6,20 +6,20 @@
 :root {
   --primary: #2B5F83;
   --primary-dark: #1E4A68;
-  --secondary: #4EA8A6;
-  --secondary-light: #6BC4C2;
-  --accent: #E8734A;
-  --accent-light: #F08A66;
+  --secondary: #2B7F7D;
+  --secondary-light: #4EA8A6;
+  --accent: #C0512A;
+  --accent-light: #D0622F;
   --sand: #F5E6D3;
   --bg-light: #FAFAF7;
   --bg-white: #FFFFFF;
   --text-primary: #2D3436;
   --text-secondary: #5A5550;
-  --text-muted: #8A8078;
+  --text-muted: #736861;
   --border: #E8E4DF;
-  --success: #3DA66E;
+  --success: #2E7D53;
   --warning: #E5A63B;
-  --error: #D94B4B;
+  --error: #C83C3C;
 
   --shadow-sm: 0 2px 8px rgba(43, 95, 131, 0.06);
   --shadow-md: 0 8px 32px rgba(43, 95, 131, 0.1);

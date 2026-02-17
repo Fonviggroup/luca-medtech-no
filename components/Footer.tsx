@@ -10,14 +10,14 @@ export default function Footer() {
             Vilkår
           </a>
           <a
-            href="mailto:steffen@fonviggroup.com"
+            href="mailto:steffen@lucamedtech.no"
             className="transition-colors hover:text-white"
           >
-            steffen@fonviggroup.com
+            steffen@lucamedtech.no
           </a>
         </div>
-        <p className="text-sm text-white/40">
-          &copy; 2025 Luca MedTech AS &middot; Hokksund, Norge
+        <p className="text-sm text-white/60">
+          &copy; 2026 Luca MedTech AS &middot; Hokksund, Norge
         </p>
       </div>
     </footer>
