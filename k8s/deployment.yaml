@@ -16,6 +16,11 @@ spec:
       labels:
         app: lucamedtech
     spec:
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 1001
+        runAsGroup: 1001
+        fsGroup: 1001
       containers:
       - name: lucamedtech
         image: lucamedtech:latest
@@ -28,3 +33,17 @@ spec:
           limits:
             cpu: "500m"
             memory: 256Mi
+        securityContext:
+          allowPrivilegeEscalation: false
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 3000
+          initialDelaySeconds: 10
+          periodSeconds: 30
+        readinessProbe:
+          httpGet:
+            path: /
+            port: 3000
+          initialDelaySeconds: 5
+          periodSeconds: 10
