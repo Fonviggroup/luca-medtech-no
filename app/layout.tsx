@@ -112,6 +112,10 @@ const organizationJsonLd = {
     "FHIR",
     "HelseID",
   ],
+  sameAs: [
+    "https://www.facebook.com/lucamedtech",
+    "https://www.linkedin.com/company/luca-medtech-as/",
+  ],
   areaServed: {
     "@type": "Country",
     name: "Norway",

@@ -44,6 +44,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: "/",
       },
     ],
-    sitemap: "https://lucamedtech.no/sitemap.xml",
+    sitemap: "https://lucamedtech.no/sitemap_index.xml",
   };
 }
