@@ -178,7 +178,7 @@ const productsJsonLd = {
         "@type": "SoftwareApplication",
         name: "Luca Sykehusintegrasjon",
         description:
-          "CGM-data skrives automatisk inn i pasientjournalen. Klinikeren ser alt i DIPS uten å forlate systemet.",
+          "Designet for automatisk overføring av CGM-data til pasientjournalen i DIPS, med populasjonsoversikt og konsultasjonsforeberedelse.",
         applicationCategory: "HealthApplication",
         operatingSystem: "Web",
       },

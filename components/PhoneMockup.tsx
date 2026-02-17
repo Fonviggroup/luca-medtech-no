@@ -3,6 +3,7 @@
 export default function PhoneMockup() {
   return (
     <div className="relative mx-auto w-[280px]">
+      <p className="mb-2 text-center text-[10px] font-medium tracking-wide text-text-muted uppercase">Konseptvisning</p>
       {/* Phone frame */}
       <div className="rounded-[36px] border-[3px] border-primary/20 bg-white p-4 shadow-[var(--shadow-xl)]">
         {/* Notch */}
@@ -98,8 +99,8 @@ export default function PhoneMockup() {
       {/* Floating badges */}
       <div className="absolute -left-16 top-24 hidden animate-float rounded-[var(--radius-lg)] bg-white px-3 py-2 shadow-[var(--shadow-md)] lg:block">
         <p className="text-xs font-semibold text-primary">DIPS</p>
-        <p className="text-[10px] text-text-muted">Synkronisert</p>
-        <p className="text-[10px] text-secondary">Automatisk dataflyt</p>
+        <p className="text-[10px] text-text-muted">Designet for</p>
+        <p className="text-[10px] text-secondary">Journalintegrasjon</p>
       </div>
 
       <div

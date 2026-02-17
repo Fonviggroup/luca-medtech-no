@@ -11,13 +11,13 @@
 
 ## What We Do
 
-Luca MedTech builds three modules on one platform:
+Luca MedTech is building three modules on one platform:
 
 1. **Trygg hverdag** (Safe Everyday) — Free for families and caregivers. Consolidated view of a child's blood sugar data, shared securely with grandparents, kindergarten, and school. Have data ready for the doctor's appointment without searching.
 
-2. **Barnehage & skole** (Kindergarten & School) — For staff in kindergartens, schools, and after-school care. Traffic-light display (green/yellow/red) with simple action instructions adapted to the child's treatment plan. Alerts to contact persons. No medical background needed.
+2. **Barnehage & skole** (Kindergarten & School) — For staff in kindergartens, schools, and after-school care. Traffic-light display (green/yellow/red) with simple action instructions adapted to the child's treatment plan. Designed to alert contact persons. No medical background needed.
 
-3. **Sykehusintegrasjon** (Hospital Integration) — For diabetes teams and clinicians. CGM data written automatically into the patient record (DIPS). Clinicians see everything in DIPS without leaving the system. Population overview and consultation preparation.
+3. **Sykehusintegrasjon** (Hospital Integration) — For diabetes teams and clinicians. Designed to deliver CGM data directly into the patient record (DIPS), with population overview and consultation preparation.
 
 ## Technology Compatibility
 

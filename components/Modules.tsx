@@ -29,7 +29,7 @@ const modules: Module[] = [
     priceTint: "bg-accent/10 text-accent",
     borderColor: "border-t-accent",
     description:
-      "Trafikklys-visning: grønn, gul, rød. Enkle handlingsinstrukser tilpasset barnets behandlingsplan. Varsler til kontaktpersoner. Ingen medisinsk bakgrunn nødvendig.",
+      "Trafikklys-visning: grønn, gul, rød. Enkle handlingsinstrukser tilpasset barnets behandlingsplan. Designet for å varsle kontaktpersoner. Ingen medisinsk bakgrunn nødvendig.",
   },
   {
     icon: "🏥",
@@ -39,7 +39,7 @@ const modules: Module[] = [
     priceTint: "bg-primary/10 text-primary",
     borderColor: "border-t-primary",
     description:
-      "CGM-data skrives automatisk inn i pasientjournalen. Klinikeren ser alt i DIPS — uten å forlate systemet. Populasjonsoversikt og konsultasjonsforeberedelse.",
+      "Målet: CGM-data rett inn i DIPS — uten manuell kopiering. Designet for at klinikeren skal se alt i journalen, med populasjonsoversikt og konsultasjonsforeberedelse.",
   },
 ];
 
