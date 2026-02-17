@@ -58,7 +58,7 @@ export default function Nav() {
         <button
           onClick={() => setMenuOpen(!menuOpen)}
           className="flex flex-col gap-1.5 md:hidden"
-          aria-label="Toggle menu"
+          aria-label="Meny"
         >
           <span
             className={`block h-0.5 w-6 bg-primary transition-transform ${

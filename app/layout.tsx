@@ -195,6 +195,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="nb">
+      <head>
+        <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM-readable site information" />
+      </head>
       <body className={`${dmSerif.variable} ${dmSans.variable} antialiased`}>
         <script
           type="application/ld+json"
