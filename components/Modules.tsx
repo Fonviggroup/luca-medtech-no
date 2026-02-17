@@ -62,7 +62,7 @@ export default function Modules() {
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {modules.map((mod, i) => (
             <ScrollReveal key={mod.title} delay={i * 100}>
-              <div
+              <article
                 className={`group h-full rounded-[var(--radius-lg)] border-t-4 ${mod.borderColor} bg-white p-8 shadow-[var(--shadow-sm)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[var(--shadow-lg)]`}
               >
                 <span className="mb-4 block text-3xl">{mod.icon}</span>
@@ -80,7 +80,7 @@ export default function Modules() {
                 <p className="text-sm leading-relaxed text-text-secondary">
                   {mod.description}
                 </p>
-              </div>
+              </article>
             </ScrollReveal>
           ))}
         </div>

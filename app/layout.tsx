@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { DM_Serif_Display, DM_Sans } from "next/font/google";
 import "./globals.css";
 
@@ -15,6 +15,12 @@ const dmSans = DM_Sans({
   weight: ["400", "500", "600", "700"],
   display: "swap",
 });
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#2B5F83",
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://lucamedtech.no"),
@@ -52,6 +58,22 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  keywords: [
+    "CGM",
+    "blodsukker",
+    "diabetes type 1",
+    "DIPS",
+    "journalsystem",
+    "helsedata",
+    "medisinsk teknologi",
+    "Norge",
+    "continuous glucose monitoring",
+  ],
+  authors: [{ name: "Steffen Fonvig" }],
+  creator: "Luca MedTech AS",
+  publisher: "Luca MedTech AS",
+  applicationName: "Luca MedTech",
+  category: "Medical Technology",
 };
 
 const organizationJsonLd = {
@@ -108,6 +130,43 @@ const webSiteJsonLd = {
   inLanguage: "nb",
 };
 
+const productsJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  itemListElement: [
+    {
+      "@type": "SoftwareApplication",
+      name: "Luca Trygg hverdag",
+      description:
+        "Samlet oversikt over barnets blodsukker. Del trygt med besteforeldre, barnehage og skole. Ha data klar til legetimen.",
+      applicationCategory: "HealthApplication",
+      operatingSystem: "Web",
+      offers: {
+        "@type": "Offer",
+        price: "0",
+        priceCurrency: "NOK",
+        description: "Alltid gratis for familier og pårørende",
+      },
+    },
+    {
+      "@type": "SoftwareApplication",
+      name: "Luca Barnehage & skole",
+      description:
+        "Trafikklys-visning for blodsukker. Enkle handlingsinstrukser tilpasset barnets behandlingsplan. Ingen medisinsk bakgrunn nødvendig.",
+      applicationCategory: "HealthApplication",
+      operatingSystem: "Web",
+    },
+    {
+      "@type": "SoftwareApplication",
+      name: "Luca Sykehusintegrasjon",
+      description:
+        "CGM-data skrives automatisk inn i pasientjournalen. Klinikeren ser alt i DIPS uten å forlate systemet.",
+      applicationCategory: "HealthApplication",
+      operatingSystem: "Web",
+    },
+  ],
+};
+
 const webPageJsonLd = {
   "@context": "https://schema.org",
   "@type": "WebPage",
@@ -149,6 +208,12 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(webPageJsonLd),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(productsJsonLd),
           }}
         />
         {children}

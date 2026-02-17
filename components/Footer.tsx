@@ -9,12 +9,14 @@ export default function Footer() {
           <a href="#" className="transition-colors hover:text-white">
             Vilkår
           </a>
-          <a
-            href="mailto:steffen@lucamedtech.no"
-            className="transition-colors hover:text-white"
-          >
-            steffen@lucamedtech.no
-          </a>
+          <address className="not-italic inline">
+            <a
+              href="mailto:steffen@lucamedtech.no"
+              className="transition-colors hover:text-white"
+            >
+              steffen@lucamedtech.no
+            </a>
+          </address>
         </div>
         <p className="text-sm text-white/60">
           &copy; 2026 Luca MedTech AS &middot; Hokksund, Norge
