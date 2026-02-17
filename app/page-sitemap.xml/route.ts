@@ -1,4 +1,5 @@
 const SITE_URL = "https://lucamedtech.no";
+const LAST_UPDATED = "2026-02-17T00:00:00.000Z";
 
 export function GET() {
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
@@ -6,7 +7,7 @@ export function GET() {
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>${SITE_URL}</loc>
-    <lastmod>${new Date().toISOString()}</lastmod>
+    <lastmod>${LAST_UPDATED}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="nb" href="${SITE_URL}" />

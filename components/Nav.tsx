@@ -28,7 +28,7 @@ export default function Nav() {
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6">
         {/* Logo */}
-        <a href="#" className="flex items-center gap-3">
+        <a href="/" className="flex items-center gap-3">
           <div className="flex h-9 w-9 items-center justify-center rounded-[var(--radius-md)] bg-gradient-to-br from-primary to-secondary text-white font-bold text-sm">
             L
           </div>

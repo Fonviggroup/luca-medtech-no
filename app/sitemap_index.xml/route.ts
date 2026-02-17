@@ -1,15 +1,16 @@
 const SITE_URL = "https://lucamedtech.no";
+const LAST_UPDATED = "2026-02-17T00:00:00.000Z";
 
 export function GET() {
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
     <loc>${SITE_URL}/page-sitemap.xml</loc>
-    <lastmod>${new Date().toISOString()}</lastmod>
+    <lastmod>${LAST_UPDATED}</lastmod>
   </sitemap>
   <sitemap>
     <loc>${SITE_URL}/post-sitemap.xml</loc>
-    <lastmod>${new Date().toISOString()}</lastmod>
+    <lastmod>${LAST_UPDATED}</lastmod>
   </sitemap>
 </sitemapindex>`;
 

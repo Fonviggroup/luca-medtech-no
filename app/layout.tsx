@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://lucamedtech.no"),
   title: "Luca MedTech — Diabetesdata som bare flyter",
   description:
-    "Vi kobler blodsukkersensorer direkte til sykehusjournal — så klinikere slipper å kopiere, og familier alltid har oversikt.",
+    "Vi kobler blodsukkersensorer (CGM) direkte til sykehusjournal — så klinikere slipper å kopiere, og familier med type 1-diabetes alltid har oversikt.",
   alternates: {
     canonical: "https://lucamedtech.no",
     languages: {
@@ -82,6 +82,7 @@ const organizationJsonLd = {
   "@id": "https://lucamedtech.no/#organization",
   name: "Luca MedTech AS",
   url: "https://lucamedtech.no",
+  logo: "https://lucamedtech.no/icon-lg",
   description:
     "Norsk medisinteknologisk selskap som kobler blodsukkersensorer direkte til sykehusjournal.",
   foundingDate: "2025",
@@ -137,36 +138,50 @@ const webSiteJsonLd = {
 const productsJsonLd = {
   "@context": "https://schema.org",
   "@type": "ItemList",
+  itemListOrder: "ItemListUnordered",
+  numberOfItems: 3,
   itemListElement: [
     {
-      "@type": "SoftwareApplication",
-      name: "Luca Trygg hverdag",
-      description:
-        "Samlet oversikt over barnets blodsukker. Del trygt med besteforeldre, barnehage og skole. Ha data klar til legetimen.",
-      applicationCategory: "HealthApplication",
-      operatingSystem: "Web",
-      offers: {
-        "@type": "Offer",
-        price: "0",
-        priceCurrency: "NOK",
-        description: "Alltid gratis for familier og pårørende",
+      "@type": "ListItem",
+      position: 1,
+      item: {
+        "@type": "SoftwareApplication",
+        name: "Luca Trygg hverdag",
+        description:
+          "Samlet oversikt over barnets blodsukker. Del trygt med besteforeldre, barnehage og skole. Ha data klar til legetimen.",
+        applicationCategory: "HealthApplication",
+        operatingSystem: "Web",
+        offers: {
+          "@type": "Offer",
+          price: "0",
+          priceCurrency: "NOK",
+          description: "Alltid gratis for familier og pårørende",
+        },
       },
     },
     {
-      "@type": "SoftwareApplication",
-      name: "Luca Barnehage & skole",
-      description:
-        "Trafikklys-visning for blodsukker. Enkle handlingsinstrukser tilpasset barnets behandlingsplan. Ingen medisinsk bakgrunn nødvendig.",
-      applicationCategory: "HealthApplication",
-      operatingSystem: "Web",
+      "@type": "ListItem",
+      position: 2,
+      item: {
+        "@type": "SoftwareApplication",
+        name: "Luca Barnehage & skole",
+        description:
+          "Trafikklys-visning for blodsukker. Enkle handlingsinstrukser tilpasset barnets behandlingsplan. Ingen medisinsk bakgrunn nødvendig.",
+        applicationCategory: "HealthApplication",
+        operatingSystem: "Web",
+      },
     },
     {
-      "@type": "SoftwareApplication",
-      name: "Luca Sykehusintegrasjon",
-      description:
-        "CGM-data skrives automatisk inn i pasientjournalen. Klinikeren ser alt i DIPS uten å forlate systemet.",
-      applicationCategory: "HealthApplication",
-      operatingSystem: "Web",
+      "@type": "ListItem",
+      position: 3,
+      item: {
+        "@type": "SoftwareApplication",
+        name: "Luca Sykehusintegrasjon",
+        description:
+          "CGM-data skrives automatisk inn i pasientjournalen. Klinikeren ser alt i DIPS uten å forlate systemet.",
+        applicationCategory: "HealthApplication",
+        operatingSystem: "Web",
+      },
     },
   ],
 };
@@ -178,9 +193,11 @@ const webPageJsonLd = {
   url: "https://lucamedtech.no",
   name: "Luca MedTech — Diabetesdata som bare flyter",
   description:
-    "Vi kobler blodsukkersensorer direkte til sykehusjournal — så klinikere slipper å kopiere, og familier alltid har oversikt.",
+    "Vi kobler blodsukkersensorer (CGM) direkte til sykehusjournal — så klinikere slipper å kopiere, og familier med type 1-diabetes alltid har oversikt.",
   isPartOf: { "@id": "https://lucamedtech.no/#website" },
   about: { "@id": "https://lucamedtech.no/#organization" },
+  datePublished: "2025-12-01",
+  dateModified: "2026-02-17",
   inLanguage: "nb",
   speakable: {
     "@type": "SpeakableSpecification",
