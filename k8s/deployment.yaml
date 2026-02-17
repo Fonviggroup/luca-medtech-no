@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: lucamedtech
+  namespace: lucamedtech
+  labels:
+    app: lucamedtech
+    creator: cookie
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: lucamedtech
+  template:
+    metadata:
+      labels:
+        app: lucamedtech
+    spec:
+      containers:
+      - name: lucamedtech
+        image: lucamedtech:latest
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 3000
+          name: http
+          protocol: TCP
+        resources:
+          limits:
+            cpu: "500m"
+            memory: 256Mi

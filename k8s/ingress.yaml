@@ -1,0 +1,24 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: lucamedtech
+  namespace: lucamedtech
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-nginx
+spec:
+  ingressClassName: nginx
+  rules:
+  - host: lucamedtech.hyfda.dk
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: lucamedtech
+            port:
+              number: 80
+  tls:
+  - hosts:
+    - lucamedtech.hyfda.dk
+    secretName: cert
