@@ -2,7 +2,7 @@ import ScrollReveal from "./ScrollReveal";
 
 export default function Story() {
   return (
-    <section id="om-oss" className="bg-sand py-24">
+    <section id="om-oss" aria-label="Om oss" className="bg-sand py-24">
       <div className="mx-auto max-w-3xl px-6 text-center">
         <ScrollReveal>
           <p className="mb-3 text-sm font-semibold tracking-wide text-accent">

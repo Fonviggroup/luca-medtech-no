@@ -45,7 +45,7 @@ const modules: Module[] = [
 
 export default function Modules() {
   return (
-    <section id="losningen" className="py-24">
+    <section id="losningen" aria-label="Løsningen" className="py-24">
       <div className="mx-auto max-w-6xl px-6">
         <ScrollReveal>
           <p className="mb-3 text-sm font-semibold tracking-wide text-accent">

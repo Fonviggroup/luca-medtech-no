@@ -4,7 +4,7 @@ import PhoneMockup from "./PhoneMockup";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden pb-20 pt-32 md:pt-40">
+    <section aria-label="Introduksjon" className="relative overflow-hidden pb-20 pt-32 md:pt-40">
       {/* Background blobs */}
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute -right-32 -top-32 h-[500px] w-[500px] rounded-full bg-secondary/5 blur-3xl" />

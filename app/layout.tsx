@@ -17,9 +17,17 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://lucamedtech.no"),
   title: "Luca MedTech — Diabetesdata som bare flyter",
   description:
     "Vi kobler blodsukkersensorer direkte til sykehusjournal — så klinikere slipper å kopiere, og familier alltid har oversikt.",
+  alternates: {
+    canonical: "https://lucamedtech.no",
+    languages: {
+      "nb": "https://lucamedtech.no",
+      "x-default": "https://lucamedtech.no",
+    },
+  },
   openGraph: {
     title: "Luca MedTech — Diabetesdata som bare flyter",
     description: "Norges første CGM-til-journal-plattform",
@@ -27,6 +35,93 @@ export const metadata: Metadata = {
     siteName: "Luca MedTech",
     locale: "nb_NO",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Luca MedTech — Diabetesdata som bare flyter",
+    description: "Norges første CGM-til-journal-plattform",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+};
+
+const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://lucamedtech.no/#organization",
+  name: "Luca MedTech AS",
+  url: "https://lucamedtech.no",
+  description:
+    "Norsk medisinteknologisk selskap som kobler blodsukkersensorer direkte til sykehusjournal.",
+  foundingDate: "2025",
+  founder: {
+    "@type": "Person",
+    name: "Steffen Fonvig",
+    jobTitle: "Grunnlegger",
+  },
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Hokksund",
+    addressCountry: "NO",
+  },
+  contactPoint: {
+    "@type": "ContactPoint",
+    email: "steffen@lucamedtech.no",
+    telephone: "+47-466-333-85",
+    contactType: "sales",
+    availableLanguage: ["Norwegian", "English"],
+  },
+  knowsAbout: [
+    "Continuous Glucose Monitoring",
+    "CGM",
+    "Diabetes",
+    "DIPS",
+    "Digital Health",
+    "Medical Device Software",
+    "FHIR",
+    "HelseID",
+  ],
+  areaServed: {
+    "@type": "Country",
+    name: "Norway",
+  },
+};
+
+const webSiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://lucamedtech.no/#website",
+  url: "https://lucamedtech.no",
+  name: "Luca MedTech",
+  description:
+    "Diabetesdata som bare flyter — fra sensor til journal, automatisk.",
+  publisher: { "@id": "https://lucamedtech.no/#organization" },
+  inLanguage: "nb",
+};
+
+const webPageJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://lucamedtech.no/#webpage",
+  url: "https://lucamedtech.no",
+  name: "Luca MedTech — Diabetesdata som bare flyter",
+  description:
+    "Vi kobler blodsukkersensorer direkte til sykehusjournal — så klinikere slipper å kopiere, og familier alltid har oversikt.",
+  isPartOf: { "@id": "https://lucamedtech.no/#website" },
+  about: { "@id": "https://lucamedtech.no/#organization" },
+  inLanguage: "nb",
+  speakable: {
+    "@type": "SpeakableSpecification",
+    cssSelector: ["h1", "#problemet", "#losningen", "#om-oss"],
   },
 };
 
@@ -38,6 +133,24 @@ export default function RootLayout({
   return (
     <html lang="nb">
       <body className={`${dmSerif.variable} ${dmSans.variable} antialiased`}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(organizationJsonLd),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(webSiteJsonLd),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(webPageJsonLd),
+          }}
+        />
         {children}
       </body>
     </html>

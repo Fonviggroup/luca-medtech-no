@@ -1,0 +1,36 @@
+# Luca MedTech
+
+> Luca MedTech AS is a Norwegian medical technology company building a platform
+> that connects continuous glucose monitors (CGM) directly to hospital electronic
+> health records (EHR). Founded in 2025 by Steffen Fonvig, a parent of a child
+> with type 1 diabetes.
+
+## About
+
+- [Homepage](https://lucamedtech.no): Main landing page with company overview, product modules, and contact information
+
+## What We Do
+
+Luca MedTech builds three modules on one platform:
+
+1. **Trygg hverdag** (Safe Everyday) — Free for families and caregivers. Consolidated view of a child's blood sugar data, shared securely with grandparents, kindergarten, and school.
+
+2. **Barnehage & skole** (Kindergarten & School) — For staff in kindergartens, schools, and after-school care. Traffic-light display (green/yellow/red) with simple action instructions. No medical background needed.
+
+3. **Sykehusintegrasjon** (Hospital Integration) — For diabetes teams and clinicians. CGM data written automatically into the patient record (DIPS). Population overview and consultation preparation.
+
+## Technology Compatibility
+
+Designed for Norwegian health infrastructure:
+- DIPS (hospital EHR system)
+- Helsenorge (patient portal)
+- HelseID (authentication)
+- Noklus Diabetes (diabetes registry)
+- Dexcom (CGM sensor)
+
+## Contact
+
+- Email: steffen@lucamedtech.no
+- Phone: +47 466 333 85
+- Location: Hokksund, Norway
+- Company: Luca MedTech AS

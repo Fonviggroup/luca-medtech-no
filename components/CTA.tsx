@@ -4,6 +4,7 @@ export default function CTA() {
   return (
     <section
       id="kontakt"
+      aria-label="Kontakt oss"
       className="relative overflow-hidden bg-primary py-24"
     >
       {/* Subtle gradient blob */}

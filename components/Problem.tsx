@@ -9,7 +9,7 @@ export default function Problem() {
   ];
 
   return (
-    <section id="problemet" className="bg-white py-24">
+    <section id="problemet" aria-label="Problemet" className="bg-white py-24">
       <div className="mx-auto max-w-6xl px-6">
         <ScrollReveal>
           <p className="mb-3 text-sm font-semibold tracking-wide text-accent">

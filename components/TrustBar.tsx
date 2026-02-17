@@ -10,7 +10,7 @@ const partners = [
 
 export default function TrustBar() {
   return (
-    <section className="border-y border-border bg-bg-light py-16">
+    <section aria-label="Kompatibilitet" className="border-y border-border bg-bg-light py-16">
       <div className="mx-auto max-w-6xl px-6">
         <ScrollReveal>
           <p className="mb-10 text-center text-sm font-semibold tracking-wide text-text-muted">
