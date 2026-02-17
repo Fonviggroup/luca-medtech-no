@@ -19,7 +19,7 @@ const modules: Module[] = [
     priceTint: "bg-success/10 text-success",
     borderColor: "border-t-secondary",
     description:
-      "Samlet oversikt over barnets blodsukker. Del trygt med besteforeldre, barnehage og skole. Ha data klar til legetimen — uten å lete.",
+      "Samlet oversikt over barnets blodsukker. Del trygt med besteforeldre, barnehage og skole. Gjør det enklere å forberede seg til legetimen.",
   },
   {
     icon: "🏫",
@@ -29,7 +29,7 @@ const modules: Module[] = [
     priceTint: "bg-accent/10 text-accent",
     borderColor: "border-t-accent",
     description:
-      "Trafikklys-visning: grønn, gul, rød. Enkle handlingsinstrukser tilpasset barnets behandlingsplan. Designet for å varsle kontaktpersoner. Ingen medisinsk bakgrunn nødvendig.",
+      "Trafikklys-visning: grønn, gul, rød. Enkle handlingsinstrukser tilpasset barnets behandlingsplan. Designet for ansatte uten medisinsk bakgrunn.",
   },
   {
     icon: "🏥",
@@ -39,7 +39,7 @@ const modules: Module[] = [
     priceTint: "bg-primary/10 text-primary",
     borderColor: "border-t-primary",
     description:
-      "Målet: CGM-data rett inn i DIPS — uten manuell kopiering. Designet for at klinikeren skal se alt i journalen, med populasjonsoversikt og konsultasjonsforeberedelse.",
+      "Målet: CGM-data flyter automatisk inn i pasientjournalen — uten manuell kopiering. Klinikeren skal se det de trenger, der de allerede jobber.",
   },
 ];
 

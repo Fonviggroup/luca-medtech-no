@@ -13,12 +13,14 @@ export default function Story() {
           </h2>
 
           <p className="mb-10 text-lg leading-relaxed text-text-secondary">
-            I november 2025 fikk min tre år gamle sønn diagnosen type
-            1-diabetes. I ukene som fulgte oppdaget jeg at kritisk helsedata fra
-            blodsukkersensoren hans ikke flyter dit den skal. Klinikere kopierer
-            tall manuelt. Barnehagen fikk et papirskjema. Familien brukte tre
-            forskjellige apper uten sammenheng. Luca MedTech bygger det som
-            mangler — plattformen som kobler alt sammen.
+            Da sønnen min fikk type 1-diabetes som treåring, ble hverdagen vår
+            snudd på hodet over natten. Plutselig handlet alt om blodsukkertall
+            — døgnet rundt. Men det som overrasket meg mest var ikke sykdommen.
+            Det var at systemene rundt oss ikke snakker sammen. Sensoren sender
+            data til én app. Legen bruker en annen. Barnehagen fikk et laminert
+            ark. Vi som foreldre sitter midt i alt og prøver å holde oversikt.
+            Det finnes ingen grunn til at det skal være sånn. Så da bygger vi
+            det som mangler.
           </p>
 
           {/* Author */}

@@ -3,7 +3,7 @@ import ScrollReveal from "./ScrollReveal";
 export default function Problem() {
   const stats = [
     { value: "Tusenvis", label: "T1-diabetikere i Norge med CGM" },
-    { value: "Minutter", label: "brukt på manuell kopiering per konsultasjon" },
+    { value: "Minutter", label: "med manuell kopiering, hver konsultasjon" },
     { value: "Flertallet", label: "av norske sykehus bruker DIPS" },
     { value: "0", label: "løsninger som kobler CGM til DIPS i dag" },
   ];

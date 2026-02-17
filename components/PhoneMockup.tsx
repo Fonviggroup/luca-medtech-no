@@ -100,7 +100,7 @@ export default function PhoneMockup() {
       <div className="absolute -left-16 top-24 hidden animate-float rounded-[var(--radius-lg)] bg-white px-3 py-2 shadow-[var(--shadow-md)] lg:block">
         <p className="text-xs font-semibold text-primary">DIPS</p>
         <p className="text-[10px] text-text-muted">Designet for</p>
-        <p className="text-[10px] text-secondary">Journalintegrasjon</p>
+        <p className="text-[10px] text-secondary">Automatisk dataflyt</p>
       </div>
 
       <div
