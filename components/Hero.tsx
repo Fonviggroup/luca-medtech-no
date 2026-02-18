@@ -33,8 +33,9 @@ export default function Hero() {
 
           {/* Subtext */}
           <p className="animate-fade-in-up delay-300 mb-8 max-w-lg text-lg leading-relaxed text-text-secondary">
-            Én plattform som gir familier trygghet, barnehager kontroll,
-            og klinikere dataen de trenger — uten manuell kopiering.
+            Norsk e-helse for diabetes. Vi utvikler løsninger som gir
+            familier trygghet, helsepersonell bedre data, og pasienter en
+            enklere hverdag.
           </p>
 
           {/* CTAs */}
