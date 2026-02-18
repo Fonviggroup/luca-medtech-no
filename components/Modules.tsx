@@ -52,10 +52,10 @@ export default function Modules() {
             &#129513; Løsningen
           </p>
           <h2 className="mb-4 font-serif text-3xl text-primary md:text-4xl">
-            Tre moduler, én plattform
+            DiaLuca: Tre moduler, én applikasjon
           </h2>
           <p className="mb-16 max-w-xl text-lg text-text-secondary">
-            Fra familiens lomme til sykehusets journal. Pasienter betaler aldri.
+            Fra innleggelse og opplæring til et langvarig liv med diabetes.
           </p>
         </ScrollReveal>
 

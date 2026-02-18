@@ -13,8 +13,8 @@ export default function Nav() {
   }, []);
 
   const links = [
-    { href: "#losningen", label: "Løsningen" },
-    { href: "#om-oss", label: "Om oss" },
+    { href: "/#losningen", label: "Løsningen" },
+    { href: "/om", label: "Om oss" },
   ];
 
   return (
@@ -47,7 +47,7 @@ export default function Nav() {
             </a>
           ))}
           <a
-            href="#kontakt"
+            href="/kontakt"
             className="rounded-[var(--radius-xl)] bg-accent px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-accent-light"
           >
             Kontakt oss
@@ -93,7 +93,7 @@ export default function Nav() {
               </a>
             ))}
             <a
-              href="#kontakt"
+              href="/kontakt"
               onClick={() => setMenuOpen(false)}
               className="inline-block rounded-[var(--radius-xl)] bg-accent px-5 py-2.5 text-center text-sm font-semibold text-white transition-colors hover:bg-accent-light"
             >
