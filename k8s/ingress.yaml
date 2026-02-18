@@ -5,6 +5,11 @@ metadata:
   namespace: lucamedtech
   annotations:
     cert-manager.io/cluster-issuer: letsencrypt-nginx
+    nginx.ingress.kubernetes.io/configuration-snippet: |
+      if ($uri !~* ^/_next/static/) {
+        add_header Cache-Control "no-cache, no-store, must-revalidate" always;
+        add_header Pragma "no-cache" always;
+      }
 spec:
   ingressClassName: nginx
   rules:
