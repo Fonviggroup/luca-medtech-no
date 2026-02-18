@@ -14,6 +14,13 @@ export function GET() {
     <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_URL}" />
   </url>
   <url>
+    <loc>${SITE_URL}/dialuca</loc>
+    <lastmod>${LAST_UPDATED}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="nb" href="${SITE_URL}/dialuca" />
+  </url>
+  <url>
     <loc>${SITE_URL}/om</loc>
     <lastmod>${LAST_UPDATED}</lastmod>
     <changefreq>monthly</changefreq>

@@ -3,6 +3,9 @@ export default function Footer() {
     <footer className="bg-primary-dark py-10">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-4 px-6 text-center md:flex-row md:justify-between md:text-left">
         <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-white/60">
+          <a href="/dialuca" className="transition-colors hover:text-white">
+            DiaLuca
+          </a>
           <a href="/om" className="transition-colors hover:text-white">
             Om oss
           </a>
