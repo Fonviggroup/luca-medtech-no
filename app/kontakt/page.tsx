@@ -35,7 +35,7 @@ export default function KontaktPage() {
             <div className="grid gap-8 md:grid-cols-2">
               {/* Email */}
               <a
-                href="mailto:steffen@lucamedtech.no"
+                href="mailto:kontakt@lucamedtech.no"
                 className="group rounded-[var(--radius-lg)] border-2 border-border bg-bg-light p-8 transition-all hover:border-accent/40 hover:shadow-[var(--shadow-md)]"
               >
                 <div className="mb-4 text-3xl">&#9993;</div>
@@ -46,7 +46,7 @@ export default function KontaktPage() {
                   Skriv til oss, så svarer vi så raskt vi kan.
                 </p>
                 <span className="font-semibold text-accent transition-colors group-hover:text-accent-light">
-                  steffen@lucamedtech.no &rarr;
+                  kontakt@lucamedtech.no &rarr;
                 </span>
               </a>
 
@@ -73,7 +73,7 @@ export default function KontaktPage() {
           <ScrollReveal>
             <div className="mt-12 text-center">
               <p className="text-sm text-text-muted">
-                Luca MedTech AS &middot; Hokksund, Norge
+                Luca MedTech AS &middot; Oslo, Norge
               </p>
             </div>
           </ScrollReveal>

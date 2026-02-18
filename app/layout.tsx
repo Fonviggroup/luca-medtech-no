@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Luca MedTech — Diabetesdata som bare flyter",
-    description: "Norges første CGM-til-journal-plattform",
+    description: "Norsk helseteknologi for diabetes",
     url: "https://lucamedtech.no",
     siteName: "Luca MedTech",
     locale: "nb_NO",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Luca MedTech — Diabetesdata som bare flyter",
-    description: "Norges første CGM-til-journal-plattform",
+    description: "Norsk helseteknologi for diabetes",
   },
   robots: {
     index: true,
@@ -95,12 +95,12 @@ const organizationJsonLd = {
   },
   address: {
     "@type": "PostalAddress",
-    addressLocality: "Hokksund",
+    addressLocality: "Oslo",
     addressCountry: "NO",
   },
   contactPoint: {
     "@type": "ContactPoint",
-    email: "steffen@lucamedtech.no",
+    email: "kontakt@lucamedtech.no",
     telephone: "+47-466-333-85",
     contactType: "sales",
     availableLanguage: ["Norwegian", "English"],
@@ -148,7 +148,7 @@ const productsJsonLd = {
       position: 1,
       item: {
         "@type": "SoftwareApplication",
-        name: "Luca Trygg hverdag",
+        name: "DiaLuca - Familie",
         description:
           "Samlet oversikt over barnets blodsukker. Del trygt med besteforeldre, barnehage og skole. Ha data klar til legetimen.",
         applicationCategory: "HealthApplication",
@@ -166,7 +166,7 @@ const productsJsonLd = {
       position: 2,
       item: {
         "@type": "SoftwareApplication",
-        name: "Luca Barnehage & skole",
+        name: "DiaLuca - Assistent",
         description:
           "Trafikklys-visning for blodsukker. Enkle handlingsinstrukser tilpasset barnets behandlingsplan. Ingen medisinsk bakgrunn nødvendig.",
         applicationCategory: "HealthApplication",
@@ -178,7 +178,7 @@ const productsJsonLd = {
       position: 3,
       item: {
         "@type": "SoftwareApplication",
-        name: "Luca Sykehusintegrasjon",
+        name: "DiaLuca - Klinikk",
         description:
           "Designet for automatisk overføring av CGM-data til pasientjournalen i DIPS, med populasjonsoversikt og konsultasjonsforeberedelse.",
         applicationCategory: "HealthApplication",

@@ -23,7 +23,7 @@ export default function CTA() {
           </p>
           <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <a
-              href="mailto:steffen@lucamedtech.no"
+              href="mailto:kontakt@lucamedtech.no"
               className="inline-block rounded-[var(--radius-xl)] bg-accent px-10 py-4 text-lg font-semibold text-white transition-all hover:bg-accent-light hover:shadow-[var(--shadow-lg)]"
             >
               Send e-post &rarr;

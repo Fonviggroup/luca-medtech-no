@@ -69,7 +69,7 @@ export default async function Image() {
             textAlign: "center",
           }}
         >
-          Norges første CGM-til-journal-plattform
+          Norsk helseteknologi for diabetes
         </div>
       </div>
     ),

@@ -82,7 +82,7 @@ export default function OmPage() {
                   Selskapet
                 </h2>
                 <p className="leading-relaxed text-text-secondary">
-                  Luca MedTech AS er basert i Hokksund, Norge. Vi utvikler
+                  Luca MedTech AS er basert i Oslo, Norge. Vi utvikler
                   DiaLuca — en plattform med tre moduler som dekker hele
                   reisen fra innleggelse og opplæring til et langvarig liv
                   med diabetes.

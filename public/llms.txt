@@ -3,7 +3,7 @@
 > Luca MedTech AS is a Norwegian medical technology company building a platform
 > that connects continuous glucose monitors (CGM) directly to hospital electronic
 > health records (EHR). Founded in 2025 by Steffen Fonvig, a parent of a child
-> with type 1 diabetes. Based in Hokksund, Norway.
+> with type 1 diabetes. Based in Oslo, Norway.
 
 ## About
 
@@ -11,13 +11,13 @@
 
 ## What We Do
 
-Luca MedTech is building three modules on one platform:
+Luca MedTech is building DiaLuca — three modules in one application:
 
-1. **Trygg hverdag** (Safe Everyday) — Free for families and caregivers. Consolidated view of a child's blood sugar data, shared securely with grandparents, kindergarten, and school. Have data ready for the doctor's appointment without searching.
+1. **DiaLuca - Familie** — Free for families and caregivers. Consolidated view of a child's blood sugar data, shared securely with grandparents, kindergarten, and school. Have data ready for the doctor's appointment without searching.
 
-2. **Barnehage & skole** (Kindergarten & School) — For staff in kindergartens, schools, and after-school care. Traffic-light display (green/yellow/red) with simple action instructions adapted to the child's treatment plan. Designed to alert contact persons. No medical background needed.
+2. **DiaLuca - Assistent** — For staff in kindergartens, schools, and after-school care. Traffic-light display (green/yellow/red) with simple action instructions adapted to the child's treatment plan. Designed to alert contact persons. No medical background needed.
 
-3. **Sykehusintegrasjon** (Hospital Integration) — For diabetes teams and clinicians. Designed to deliver CGM data directly into the patient record (DIPS), with population overview and consultation preparation.
+3. **DiaLuca - Klinikk** — For diabetes teams and clinicians. Designed to deliver CGM data directly into the patient record (DIPS), with population overview and consultation preparation.
 
 ## Technology Compatibility
 
@@ -36,8 +36,8 @@ Designed for Norwegian health infrastructure:
 
 ## Contact
 
-- Email: steffen@lucamedtech.no
+- Email: kontakt@lucamedtech.no
 - Phone: +47 466 333 85
-- Location: Hokksund, Norway
+- Location: Oslo, Norway
 - Company: Luca MedTech AS
 - Website: https://lucamedtech.no

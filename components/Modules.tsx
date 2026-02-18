@@ -13,7 +13,7 @@ interface Module {
 const modules: Module[] = [
   {
     icon: "💙",
-    title: "Trygg hverdag",
+    title: "DiaLuca - Familie",
     forLabel: "Familier og pårørende",
     price: "Alltid gratis",
     priceTint: "bg-success/10 text-success",
@@ -23,7 +23,7 @@ const modules: Module[] = [
   },
   {
     icon: "🏫",
-    title: "Barnehage & skole",
+    title: "DiaLuca - Assistent",
     forLabel: "Ansatte i BHG, skole, SFO og avlastning",
     price: "Kommersielt",
     priceTint: "bg-accent/10 text-accent",
@@ -33,7 +33,7 @@ const modules: Module[] = [
   },
   {
     icon: "🏥",
-    title: "Sykehusintegrasjon",
+    title: "DiaLuca - Klinikk",
     forLabel: "Diabetesteam og klinikere",
     price: "Kommersielt",
     priceTint: "bg-primary/10 text-primary",

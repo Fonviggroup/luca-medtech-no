@@ -11,10 +11,10 @@ export default function Footer() {
           </a>
           <address className="not-italic inline">
             <a
-              href="mailto:steffen@lucamedtech.no"
+              href="mailto:kontakt@lucamedtech.no"
               className="transition-colors hover:text-white"
             >
-              steffen@lucamedtech.no
+              kontakt@lucamedtech.no
             </a>
           </address>
         </div>
@@ -52,7 +52,7 @@ export default function Footer() {
             </svg>
           </a>
           <p className="text-sm text-white/60">
-            &copy; 2026 Luca MedTech AS &middot; Hokksund, Norge
+            &copy; 2026 Luca MedTech AS &middot; Oslo, Norge
           </p>
         </div>
       </div>

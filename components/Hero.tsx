@@ -18,15 +18,15 @@ export default function Hero() {
           <div className="animate-fade-in-up mb-6 inline-flex items-center gap-2 rounded-[var(--radius-xl)] bg-secondary/10 px-4 py-2">
             <span className="animate-pulse-dot inline-block h-2 w-2 rounded-full bg-success" />
             <span className="text-sm font-medium text-secondary">
-              Norges første CGM-til-journal-plattform
+              Norsk helseteknologi for diabetes
             </span>
           </div>
 
           {/* Headline */}
           <h1 className="animate-fade-in-up delay-200 mb-6 font-serif text-4xl leading-tight text-primary md:text-5xl lg:text-6xl">
-            Bedre diabeteshverdag — fra hjemmet til{" "}
+            Bedre diabeteshverdag — fra sykehuset til{" "}
             <em className="relative not-italic text-secondary">
-              sykehuset
+              hjemmet
               <span className="absolute -bottom-1 left-0 h-1 w-full rounded-full bg-accent/40" />
             </em>
           </h1>
