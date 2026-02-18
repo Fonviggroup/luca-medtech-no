@@ -25,6 +25,9 @@ spec:
       - name: lucamedtech
         image: lucamedtech:latest
         imagePullPolicy: Never
+        envFrom:
+        - secretRef:
+            name: maintenance-credentials
         ports:
         - containerPort: 3000
           name: http
@@ -37,13 +40,13 @@ spec:
           allowPrivilegeEscalation: false
         livenessProbe:
           httpGet:
-            path: /
+            path: /api/health
             port: 3000
           initialDelaySeconds: 10
           periodSeconds: 30
         readinessProbe:
           httpGet:
-            path: /
+            path: /api/health
             port: 3000
           initialDelaySeconds: 5
           periodSeconds: 10

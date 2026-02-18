@@ -1,7 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { DM_Serif_Display, DM_Sans } from "next/font/google";
-import Nav from "@/components/Nav";
-import Footer from "@/components/Footer";
+import LayoutShell from "@/components/LayoutShell";
 import "./globals.css";
 
 const dmSerif = DM_Serif_Display({
@@ -242,11 +241,7 @@ export default function RootLayout({
             __html: JSON.stringify(productsJsonLd),
           }}
         />
-        <header>
-          <Nav />
-        </header>
-        <main>{children}</main>
-        <Footer />
+        <LayoutShell>{children}</LayoutShell>
       </body>
     </html>
   );
