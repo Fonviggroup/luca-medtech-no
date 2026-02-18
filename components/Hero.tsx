@@ -24,17 +24,17 @@ export default function Hero() {
 
           {/* Headline */}
           <h1 className="animate-fade-in-up delay-200 mb-6 font-serif text-4xl leading-tight text-primary md:text-5xl lg:text-6xl">
-            Diabetesdata som bare{" "}
+            Bedre diabeteshverdag — fra hjemmet til{" "}
             <em className="relative not-italic text-secondary">
-              flyter
+              sykehuset
               <span className="absolute -bottom-1 left-0 h-1 w-full rounded-full bg-accent/40" />
             </em>
           </h1>
 
           {/* Subtext */}
           <p className="animate-fade-in-up delay-300 mb-8 max-w-lg text-lg leading-relaxed text-text-secondary">
-            Vi kobler blodsukkersensorer direkte til sykehusjournal — så
-            klinikere slipper å kopiere, og familier alltid har oversikt.
+            Én plattform som gir familier trygghet, barnehager kontroll,
+            og klinikere dataen de trenger — uten manuell kopiering.
           </p>
 
           {/* CTAs */}
