@@ -13,7 +13,7 @@ export async function GET() {
           alignItems: "center",
           justifyContent: "center",
           borderRadius: "32px",
-          background: "linear-gradient(135deg, #2B5F83, #2B7F7D)",
+          background: "linear-gradient(135deg, #2B5F83, #4EA8A6)",
           color: "white",
           fontSize: "120px",
           fontWeight: "bold",

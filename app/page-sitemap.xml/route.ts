@@ -1,5 +1,5 @@
 const SITE_URL = "https://lucamedtech.no";
-const LAST_UPDATED = "2026-02-17T00:00:00.000Z";
+const LAST_UPDATED = "2026-02-18T00:00:00.000Z";
 
 export function GET() {
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
@@ -12,6 +12,20 @@ export function GET() {
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="nb" href="${SITE_URL}" />
     <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_URL}" />
+  </url>
+  <url>
+    <loc>${SITE_URL}/om</loc>
+    <lastmod>${LAST_UPDATED}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nb" href="${SITE_URL}/om" />
+  </url>
+  <url>
+    <loc>${SITE_URL}/kontakt</loc>
+    <lastmod>${LAST_UPDATED}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nb" href="${SITE_URL}/kontakt" />
   </url>
 </urlset>`;
 

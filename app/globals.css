@@ -6,20 +6,19 @@
 :root {
   --primary: #2B5F83;
   --primary-dark: #1E4A68;
-  --secondary: #2B7F7D;
-  --secondary-light: #4EA8A6;
-  --accent: #C0512A;
-  --accent-light: #D0622F;
+  --secondary: #4EA8A6;
+  --accent: #E8734A;
+  --accent-light: #F08A66;
   --sand: #F5E6D3;
   --bg-light: #FAFAF7;
   --bg-white: #FFFFFF;
   --text-primary: #2D3436;
   --text-secondary: #5A5550;
-  --text-muted: #736861;
+  --text-muted: #8A8078;
   --border: #E8E4DF;
-  --success: #2E7D53;
+  --success: #3DA66E;
   --warning: #E5A63B;
-  --error: #C83C3C;
+  --error: #D94B4B;
 
   --shadow-sm: 0 2px 8px rgba(43, 95, 131, 0.06);
   --shadow-md: 0 8px 32px rgba(43, 95, 131, 0.1);
@@ -37,7 +36,6 @@
   --color-primary: var(--primary);
   --color-primary-dark: var(--primary-dark);
   --color-secondary: var(--secondary);
-  --color-secondary-light: var(--secondary-light);
   --color-accent: var(--accent);
   --color-accent-light: var(--accent-light);
   --color-sand: var(--sand);

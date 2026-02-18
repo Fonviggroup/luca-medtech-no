@@ -65,13 +65,17 @@ export default function Modules() {
               <article
                 className={`group h-full rounded-[var(--radius-lg)] border-t-4 ${mod.borderColor} bg-white p-8 shadow-[var(--shadow-sm)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[var(--shadow-lg)]`}
               >
-                <span className="mb-4 block text-3xl">{mod.icon}</span>
-                <h3 className="mb-1 font-serif text-xl text-primary">
-                  {mod.title}
-                </h3>
-                <p className="mb-3 text-xs text-text-muted">
-                  {mod.forLabel}
-                </p>
+                <div className="mb-4 flex items-start gap-4">
+                  <span className="text-3xl leading-none">{mod.icon}</span>
+                  <div>
+                    <h3 className="font-serif text-xl text-primary">
+                      {mod.title}
+                    </h3>
+                    <p className="text-xs text-text-muted">
+                      {mod.forLabel}
+                    </p>
+                  </div>
+                </div>
                 <span
                   className={`mb-4 inline-block rounded-[var(--radius-xl)] px-3 py-1 text-xs font-semibold ${mod.priceTint}`}
                 >

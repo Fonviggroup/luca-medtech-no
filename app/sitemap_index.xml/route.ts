@@ -1,5 +1,5 @@
 const SITE_URL = "https://lucamedtech.no";
-const LAST_UPDATED = "2026-02-17T00:00:00.000Z";
+const LAST_UPDATED = "2026-02-18T00:00:00.000Z";
 
 export function GET() {
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
