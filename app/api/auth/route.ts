@@ -10,7 +10,7 @@ export async function POST(request: NextRequest) {
   const secret = process.env.MAINTENANCE_SECRET;
 
   if (username === validUsername && password === validPassword && secret) {
-    const response = NextResponse.redirect(new URL("/", request.url));
+    const response = NextResponse.json({ ok: true });
     response.cookies.set("auth-token", secret, {
       httpOnly: true,
       secure: true,
@@ -21,5 +21,5 @@ export async function POST(request: NextRequest) {
     return response;
   }
 
-  return NextResponse.redirect(new URL("/login?error=1", request.url));
+  return NextResponse.json({ ok: false }, { status: 401 });
 }

@@ -6,8 +6,33 @@ import { Suspense } from "react";
 
 function LoginForm() {
   const searchParams = useSearchParams();
-  const hasError = searchParams.get("error") === "1";
+  const [error, setError] = useState(searchParams.get("error") === "1");
   const [loading, setLoading] = useState(false);
+
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    setLoading(true);
+    setError(false);
+
+    const formData = new FormData(e.currentTarget);
+
+    try {
+      const res = await fetch("/api/auth", {
+        method: "POST",
+        body: formData,
+      });
+
+      if (res.ok) {
+        window.location.href = "/";
+      } else {
+        setError(true);
+        setLoading(false);
+      }
+    } catch {
+      setError(true);
+      setLoading(false);
+    }
+  }
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-bg-light px-6">
@@ -32,12 +57,10 @@ function LoginForm() {
 
         {/* Login form */}
         <form
-          action="/api/auth"
-          method="POST"
-          onSubmit={() => setLoading(true)}
+          onSubmit={handleSubmit}
           className="rounded-[var(--radius-lg)] bg-white p-6 shadow-[var(--shadow-md)]"
         >
-          {hasError && (
+          {error && (
             <div className="mb-4 rounded-[var(--radius-md)] bg-error/10 p-3 text-center text-sm text-error">
               Feil brukernavn eller passord.
             </div>
