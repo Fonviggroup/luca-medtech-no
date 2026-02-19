@@ -282,7 +282,7 @@ export default function DiaLucaPage() {
                 <div className="mb-4 flex items-center gap-3">
                   <span className="text-3xl">🏫</span>
                   <span className="rounded-[var(--radius-xl)] bg-accent/10 px-3 py-1 text-xs font-semibold text-accent">
-                    Kommersielt
+                    For alle sin trygghet
                   </span>
                 </div>
                 <h2 className="mb-2 font-serif text-3xl text-primary md:text-4xl">
@@ -322,7 +322,7 @@ export default function DiaLucaPage() {
                 <div className="mb-4 flex items-center gap-3">
                   <span className="text-3xl">🏥</span>
                   <span className="rounded-[var(--radius-xl)] bg-primary/10 px-3 py-1 text-xs font-semibold text-primary">
-                    Kommersielt
+                    For helsepersonell
                   </span>
                 </div>
                 <h2 className="mb-2 font-serif text-3xl text-primary md:text-4xl">
