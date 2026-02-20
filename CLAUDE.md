@@ -19,7 +19,24 @@ npm run lint         # ESLint (next/core-web-vitals + next/typescript)
 
 ## Deployment
 
-Push to `master` → Vercel auto-deploys to lucamedtech.no. No CI pipeline or manual deploy steps.
+The site runs in two places from the same codebase:
+
+| Domain | Host | Deploy method |
+|--------|------|---------------|
+| lucamedtech.no | Vercel | Auto on push to `master` |
+| lucamedtech.hyfda.dk | K8s on cookieserver (192.168.1.137) | Manual build + restart |
+
+**Vercel:** Push to `master` → auto-deploys. No CI pipeline or manual steps.
+
+**Kubernetes:** SSH to cookieserver and run:
+```bash
+cd ~/luca-medtech-no && git pull
+docker build -t lucamedtech:latest .
+kubectl rollout restart deployment lucamedtech -n lucamedtech
+```
+- Namespace: `lucamedtech`, image built locally with `imagePullPolicy: Never`
+- Env vars come from K8s secret `maintenance-credentials` (mounted via `envFrom`)
+- `Dockerfile` uses the `output: "standalone"` build from `next.config.ts`
 
 ## Architecture
 
